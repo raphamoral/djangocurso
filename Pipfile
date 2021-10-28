@@ -8,6 +8,7 @@ django = "*"
 flake8 = "*"
 gunicorn = "*"
 heroku = "*"
+python-dateutil = "*"
 
 [dev-packages]
 
