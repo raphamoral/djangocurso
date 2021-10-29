@@ -9,6 +9,7 @@ flake8 = "*"
 gunicorn = "*"
 heroku = "*"
 python-dateutil = "*"
+pytest-django = "*"
 
 [dev-packages]
 
