@@ -11,6 +11,7 @@ heroku = "*"
 python-dateutil = "*"
 pytest-django = "*"
 pytest = "*"
+python-decouple = "*"
 
 [dev-packages]
 pytest-cov = "*"
