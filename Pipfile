@@ -10,9 +10,9 @@ gunicorn = "*"
 heroku = "*"
 python-dateutil = "*"
 pytest-django = "*"
+pytest = "*"
 
 [dev-packages]
-pytest-django = "*"
 
 [requires]
 python_version = "3.9"
