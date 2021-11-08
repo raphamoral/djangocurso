@@ -12,6 +12,7 @@ python-dateutil = "*"
 pytest-django = "*"
 pytest = "*"
 python-decouple = "*"
+dj-database-url = "*"
 
 [dev-packages]
 pytest-cov = "*"
