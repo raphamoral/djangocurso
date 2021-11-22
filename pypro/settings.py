@@ -138,7 +138,7 @@ COLLECTFAST_ENABLED = False
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
+COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
 AWS_ACCESS_KEY_ID= config('AWS_ACCESS_KEY_ID')
 #STORAGE CONFIG IN S3 AWS
 #______________________________________________________
