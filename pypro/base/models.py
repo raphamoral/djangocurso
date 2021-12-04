@@ -72,7 +72,7 @@ class UserManager(BaseUserManager):
 
 
 # Create your models here.
-class AbstractUser(AbstractBaseUser, PermissionsMixin):
+class User(AbstractBaseUser, PermissionsMixin):
     """
     App base User Class
     Email and password are required . Other fields are optional
@@ -100,7 +100,7 @@ class AbstractUser(AbstractBaseUser, PermissionsMixin):
 
     EMAIL_FIELD = 'email'
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['email']
+    REQUIRED_FIELDS = []
 
     class Meta:
         verbose_name = _('user')
